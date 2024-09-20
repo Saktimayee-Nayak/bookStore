@@ -2,7 +2,7 @@
 
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/home/Home'
-
+import { Toaster } from 'react-hot-toast';
 import Courses from './courses/courses'
 import Signup from './components/Signup'
 
@@ -18,6 +18,7 @@ const App = () => {
  <Route path="/course" element={<Courses/>}/>
  <Route path="/signup" element={<Signup/>}/>
 </Routes>
+<Toaster />
 </div>
    </>
   )

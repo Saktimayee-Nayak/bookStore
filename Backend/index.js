@@ -11,6 +11,7 @@ const app = express()
 // const port = 3000
 
 app.use(cors());
+//middleware
 app.use(express.json());
 
 dotenv.config();
